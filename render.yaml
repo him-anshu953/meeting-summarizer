@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: meeting-summarizer-backend
+    env: java
+    plan: free
+    buildCommand: "./mvnw clean install -DskipTests"
+    startCommand: "./mvnw spring-boot:run"
+    envVars:
+      - key: JAVA_VERSION
+        value: 17
