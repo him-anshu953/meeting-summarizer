@@ -1,0 +1,71 @@
+# -------------------
+# Maven / Spring Boot
+# -------------------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# -------------------
+# Node.js / React
+# -------------------
+summarizer-frontend/node_modules/
+summarizer-frontend/build/
+summarizer-frontend/.pnp
+summarizer-frontend/.pnp.js
+summarizer-frontend/yarn-error.log
+summarizer-frontend/.parcel-cache
+summarizer-frontend/.next
+summarizer-frontend/out
+
+# -------------------
+# Logs
+# -------------------
+*.log
+
+# -------------------
+# IntelliJ IDEA
+# -------------------
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# -------------------
+# Eclipse / STS
+# -------------------
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# -------------------
+# NetBeans
+# -------------------
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# -------------------
+# VS Code
+# -------------------
+.vscode/
+
+# -------------------
+# OS Files
+# -------------------
+.DS_Store
+Thumbs.db
+
+# -------------------
+# Secrets (keep out of repo!)
+# -------------------
+src/main/resources/application.properties
