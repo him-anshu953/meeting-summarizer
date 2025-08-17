@@ -1,0 +1,116 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+textarea, input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:first-child {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+button:first-child:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+button:first-child:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button:last-child {
+  background: #f0f0f0;
+  color: #333;
+}
+
+button:last-child:hover {
+  background: #e0e0e0;
+}
+
+.summary {
+  background: #f0fff4;
+  border: 2px solid #9ae6b4;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+}
+
+.summary h3 {
+  margin: 0 0 15px 0;
+  color: #22543d;
+}
+
+.summary pre {
+  white-space: pre-wrap;
+  line-height: 1.6;
+  margin: 0 0 15px 0;
+  font-family: inherit;
+}
+
+.summary button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #48bb78;
+  color: white;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.summary button:hover {
+  background: #38a169;
+}
+
+@media (max-width: 600px) {
+  .container { padding: 20px; }
+  .buttons { flex-direction: column; }
+}
