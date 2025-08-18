@@ -1,10 +1,6 @@
 # 📝 Meeting Summarizer (Full Stack)
 
 <p align="center">
-  <img src="assets/app-screenshot.png" alt="Meeting Summarizer Screenshot" width="700"/>
-</p>
-
-<p align="center">
   <b>An AI-powered meeting notes summarizer and sharer.</b><br/>
   Built with <b>Spring Boot (Java)</b> for backend and <b>React</b> for frontend.
 </p>
