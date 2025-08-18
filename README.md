@@ -53,5 +53,3 @@ mvn spring-boot:run
 cd ../summarizer-frontend
 npm install
 npm start
-git clone https://github.com/him-anshu953/meeting-summarizer.git
-cd meeting-summarizer
