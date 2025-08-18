@@ -39,7 +39,7 @@ Built with Spring Boot (Java) for backend and React for frontend.
 
 ##  Demo
 
-Check out the live version: [Meeting Summarizer Live Demo](https://meeting-summarizer-six.vercel.app)  
+Check out the live version: [Meeting Summarizer Live Demo](https://meeting-summarizer-tau.vercel.app/)  
 :contentReference[oaicite:1]{index=1}
 
 ---
