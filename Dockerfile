@@ -18,5 +18,8 @@ COPY src ./src
 # Build the application
 RUN ./mvnw clean package -DskipTests
 
+# Expose the port Spring Boot runs on
+EXPOSE 8080
+
 # Run the Spring Boot JAR
 CMD ["java", "-jar", "target/sumarizer-0.0.1-SNAPSHOT.jar"]
