@@ -18,9 +18,9 @@ Built with Spring Boot (Java) for backend and React for frontend.
 ##  Tech Stack
 
 Backend: Spring Boot, Java, Maven  
-Frontend: React (CRA)  
+Frontend: React  
 Email Service: Spring Boot Mail + MailHog (for local testing)  
-AI Service: Groq / LLM API
+AI Service: Groq API
 
 ---
 
