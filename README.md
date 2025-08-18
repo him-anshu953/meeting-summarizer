@@ -41,6 +41,8 @@
 
 Clone the repository:
 ```bash
+git clone https://github.com/him-anshu953/meeting-summarizer.git
+cd meeting-summarizer
 
 #Backend(Spring Boot)
 cd src
